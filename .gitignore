@@ -1,0 +1,42 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore specific entity classes
+src/main/java/com/sankalp/ImageToDB/entity/Product.java
+src/main/java/com/sankalp/ImageToDB/entity/Pictures_1.java
+src/main/java/com/sankalp/ImageToDB/repository/ProductRepository.java
+src/main/java/com/sankalp/ImageToDB/repository/Pictures_1Repository.java
+src/main/java/com/sankalp/ImageToDB/dto/ProductResponse.java
+src/main/java/com/yourcompany/yourproject/controller/PictureController.java
+src/main/java/com/yourcompany/yourproject/controller/ProductController.java
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
